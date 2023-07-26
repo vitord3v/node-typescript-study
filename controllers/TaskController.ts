@@ -37,3 +37,5 @@ router.delete('/:id', (req,res) => {
         res.status(404).json({ message: 'Task not found' })
     }
 })
+
+export default router;
